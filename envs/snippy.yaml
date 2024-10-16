@@ -1,0 +1,11 @@
+name: snippy_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - samtools=1.9
+  - csvtk
+  - snpeff=5.0
+  - snippy=4.4.5
+  - snp-sites

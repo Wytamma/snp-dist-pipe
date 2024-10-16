@@ -1,0 +1,5 @@
+assemblies: null
+alignment: null
+extension: ".fa"
+mask: "resources/masks/marin-conservative.bed"
+reference: "resources/H37Rv.fasta"

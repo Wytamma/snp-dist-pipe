@@ -1,0 +1,33 @@
+additional_snakemake_args: []
+art: null
+cli: 
+  assemblies: 
+    type: Path
+    required: false
+  alignment: 
+    type: Path
+    required: false
+  extension:
+    type: str
+  mask: 
+    type: Path
+  reference: 
+    type: Path
+
+commands:
+- run
+- script
+- env
+- profile
+- info
+- config
+conda: true
+configfile: null
+font: small
+logo: null
+resources: []
+skip_missing: false
+snakefile: null
+symlink_resources: false
+tagline: A Snakemake workflow CLI generated with Snk
+version: editable
