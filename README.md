@@ -1,8 +1,8 @@
 # SNP Distance Pipeline
 
-This pipeline is designed to compute SNP (Single Nucleotide Polymorphism) distances between samples in a provided genome alignment and a set of novel assemblies. It utilizes several bioinformatics tools such as Snippy, Bcftools, BEDTools, and a custom Python script to process the assemblies, create consensus sequences, apply masks, and ultimately compute SNP distances.
+This pipeline is designed to compute SNP (Single Nucleotide Polymorphism) distances between samples in a provided genome alignment and a set of novel assemblies. It utilizes several bioinformatics tools such as [psdm](https://github.com/mbhall88/psdm), Snippy, Bcftools, BEDTools, and a custom Python script to process the assemblies, create consensus sequences, apply masks, and ultimately compute SNP distances.
 
-Install with snk ()
+Install with [snk](https://snk.wytamma.com/):
 
 ```bash
 snk install wytamma/snp-dist-pipe
@@ -27,3 +27,5 @@ snp-dist-pipe run \
     --alignment path/to/alignment.fa \
     --assemblies path/to/assemblies/dir
 ```
+
+Thanks to Michael Hall for the advice.
